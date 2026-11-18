@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IfNext - Official Website</title>
+  
+  <!-- ▼ Google Search Console 所有権確認用メタタグ ▼ -->
+  <meta name="google-site-verification" content="JxkWPOPLK9p8e8GjzPk8jhunidDQZlMdf7Y1rg_pO-k" />
+  <!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
+
+  <style>
+    :root {
+      --primary-color: #2563eb;
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-color: #1e293b;
+      --sub-text: #64748b;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--card-bg);
+      border-bottom: 1px solid #e2e8f0;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+    .logo {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      color: var(--sub-text);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    nav a:hover { color: var(--primary-color); }
+    .hero {
+      text-align: center;
+      padding: 4rem 1rem;
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      color: #ffffff;
+    }
+    .hero h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+    .hero p { color: #94a3b8; font-size: 1.1rem; }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      border-left: 4px solid var(--primary-color);
+      padding-left: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .card {
+      background: var(--card-bg);
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .card h3 { margin-top: 0; color: var(--primary-color); }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: var(--card-bg);
+      border-top: 1px solid #e2e8f0;
+      color: var(--sub-text);
+      font-size: 0.85rem;
+    }
+    footer a {
+      color: var(--sub-text);
+      text-decoration: underline;
+      margin: 0 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="#" class="logo">IfNext</a>
+    <nav>
+      <a href="#about">事業内容</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+      <a href="terms.html">利用規約</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>IfNext</h1>
+    <p>モバイルアプリケーション企画・開発スタジオ</p>
+  </div>
+
+  <div class="container">
+    <section id="about">
+      <div class="section-title">About</div>
+      <div class="grid">
+        <div class="card">
+          <h3>アプリ企画・開発</h3>
+          <p>スマートフォン（Android）向けのゲームアプリや業務効率化・ライフスタイル向けビジネスツールの企画・開発を行っています。</p>
+        </div>
+        <div class="card">
+          <h3>運用・品質管理</h3>
+          <p>ユーザー体験の向上と安定した動作を目指し、継続的な機能改善と品質管理に努めています。</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 IfNext All Rights Reserved.</p>
+    <p>
+      <a href="privacy.html">プライバシーポリシー</a> |
+      <a href="terms.html">利用規約</a>
+    </p>
+  </footer>
+
+</body>
+</html>
 
